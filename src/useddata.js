@@ -1,0 +1,51 @@
+export const userData = [
+            {
+                name: 'January',
+                data: '1000',
+                "Active User": 4000,
+                Av: 2400,
+                amt: 2400,
+            },
+            {
+                name: 'February',
+                data: '1200',
+                "Active User": 3000,
+                Av: 1398,
+                amt: 2210,
+            },
+            {
+                name: 'March',
+                data: '1800',
+                "Active User": 2000,
+                Av: 9800,
+                amt: 2290,
+            },
+            {
+                name: 'April',
+                data: '2000',
+                "Active User": 2780,
+                Av: 3908,
+                amt: 2000,
+            },
+            {
+                name: 'May',
+                data: '3000',
+                "Active User": 1890,
+                Av: 4800,
+                amt: 2181,
+            },
+            {
+                name: 'July',
+                data: '4000',
+                "Active User": 2390,
+                Av: 3800,
+                amt: 2500,
+            },
+            {
+                name: 'August',
+                data: '5000',
+                "Active User": 3490,
+                Av: 4300,
+                amt: 2100,
+            },
+        ];
