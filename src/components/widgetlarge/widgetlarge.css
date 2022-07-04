@@ -1,0 +1,48 @@
+.Widgetlarge{
+    -webkit-box-shadow: 0px 0px 15px -10px#000000;
+        box-shadow: 0px 0px 40px -10px #000000;
+    padding: 20px;
+    margin: 20px;
+    flex : 2;
+}
+.WidgetlargeTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.WidgetlargeTable{
+    width: 90%;
+    border-spacing: 5px ;
+}
+.WidgetlargeTh{
+    text-align: left;
+}
+.WidgetLargeImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.WidgetLargeButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+.WidgetLargeButton.Active{
+    background-color: lightgreen;
+    color: darkgreen;
+    font-style: bold;
+}
+
+.WidgetlargeUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.WidgetlargeDate{
+    font-weight: 300;
+}
+.WidgetlargeAmount{
+    font-weight: 300;
+}
