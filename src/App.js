@@ -1,9 +1,9 @@
 import Sidebar from "./components/sidebar/Sidebar.jsx";
 import Topbar from "./components/topbar/Topbar.jsx"
-import "./app.css"
+import "./App.css"
 import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Report } from "@material-ui/icons";
+import Report from './pages/report/Report.jsx';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route exact path="/" element={<Home />} /> 
-          <Route path="/" element={<Report/>} /> 
+          <Route path="/report" element={<Report/>} /> 
           </Routes>
       </div>
     </Router>

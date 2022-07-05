@@ -6,7 +6,7 @@
         margin: 20px;
 }
 .WidgetsmallTitle{
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -51,4 +51,38 @@
 .Widgetsmallcon{
     font-size: 16px;
     margin: 5px;
+}
+
+@media screen and (max-width:500) {
+    .Widgetsmall{
+        flex: 1;
+            -webkit-box-shadow: 0px 0px 5px -10px#000000;
+            box-shadow: 0px 0px 20px -10px #000000;
+            padding: 5px;
+            margin: 5px;
+
+    }
+        .WidgetsmallButton {
+            display: flex;
+            align-items: center;
+            border: none;
+            border-radius: 2px;
+            padding: 1px 3px;
+            background-color: azure;
+            color: black;
+            cursor: pointer
+        }
+        .WidgetsmallUsername {
+                    font-weight: 200;
+                }
+        .WidgetSmallListItem {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px 0px;
+         }
+        .WidgetsmallUserTitle {
+            font-weight: 100;
+            color: blue;
+        }
 }

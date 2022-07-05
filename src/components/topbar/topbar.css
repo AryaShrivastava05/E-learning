@@ -56,3 +56,28 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px){
+
+    .topbar{
+        flex-direction: column;
+        right: 0;
+        width: 133%;
+        position: sticky;
+    }
+        .topbarWrapper {
+            height: 100%;
+            padding: 0px 0px;
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .topRight {
+            display: none;
+        }
+   
+}
+
+
+
+
